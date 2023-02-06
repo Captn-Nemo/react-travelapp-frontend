@@ -1,0 +1,19 @@
+.navItem {
+  text-decoration: none;
+  color: grey;
+}
+
+.navItem:hover {
+  color: black;
+}
+
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Facebook::before {
+   font: var(--fa-font-brands);
+    content: ' \f09a';
+ }
